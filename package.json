@@ -1,0 +1,20 @@
+{
+  "name": "levpay-qris-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "autoft-qris": "^0.0.10",
+    "axios": "^1.7.9",
+    "dayjs": "^1.11.13",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "nanoid": "^5.0.7",
+    "pino": "^9.5.0",
+    "qrcode": "^1.5.4",
+    "uuid": "^11.0.3"
+  }
+}
