@@ -2,14 +2,12 @@
   "name": "levpay-api-v1",
   "private": true,
   "version": "1.0.0",
-  "scripts": {
-    "dev": "next dev -p 3000",
-    "build": "next build",
-    "start": "next start -p 3000"
+  "description": "LevPay Vercel API Gateway -> Proxy to VPS",
+  "main": "api/[...path].js",
+  "engines": {
+    "node": "20.x"
   },
-  "dependencies": {
-    "next": "14.2.5",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+  "scripts": {
+    "build": "echo \"no build\""
   }
 }
